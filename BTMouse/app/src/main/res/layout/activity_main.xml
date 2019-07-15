@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MouseActivity">
+
+    <TextView
+        android:id="@+id/tp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/lc"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="center_vertical"
+        android:hapticFeedbackEnabled="true"
+        android:text="Use this area as a track pad\nUse volume buttons for scrolling"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <View android:id="@+id/strut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/lc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_alignEnd="@id/strut"
+        android:text="L-click"/>
+
+    <Button
+        android:id="@+id/rc"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignStart="@id/strut"
+        android:text="R-click"/>
+
+</RelativeLayout>
