@@ -22,8 +22,8 @@ I will also be adding the application icon to system tray so that you can know t
     <th>Mouse Screen</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/psrabhishek/BluetoothMouse/blob/master/BTMouse/Home.jpg?raw=true" height="720px"/></td>
-    <td><img src="https://github.com/psrabhishek/BluetoothMouse/blob/master/BTMouse/Mouse.jpg?raw=true" height="720px"/></td>
+    <td><img src="https://github.com/psrabhishek/BluetoothMouse/blob/master/BTMouse/Home.jpg?raw=true" height="480px"/></td>
+    <td><img src="https://github.com/psrabhishek/BluetoothMouse/blob/master/BTMouse/Mouse.jpg?raw=true" height="480px"/></td>
   </tr>
 </table>
 
